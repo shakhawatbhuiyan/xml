@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+	<test name="LoginTest">
+		<parameter name="username" value="techfios@gmail.com" />
+		<parameter name="Password" value="abc123" />
+		<classes>
+			<class name="Test.LoginTest" />
+		</classes>
+	</test>
+	<test name="AddContactTest">
+		<parameter name="username" value="techfiosdemo@gmail.com" />
+		<parameter name="password" value="abc123" />
+		<parameter name="name" value="mary" />
+		<parameter name="Company" value="nokia" />
+		<parameter name="email" value="po" />
+		<classes>
+			<class name="Test.AddContactTest" />
+		</classes>
+	</test>
+</suite>
